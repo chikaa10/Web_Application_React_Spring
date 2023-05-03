@@ -34,8 +34,13 @@ export default function Home() {
     <tr>
         <th scope="row" key={index}>{index+1}</th>
         <td>{user.name}</td>
-        <td>{user.username}</td>
+        <td>{user.userName}</td>
         <td>{user.email}</td>
+        <td>
+            <button className="btn btn-primary mx-2">View</button>
+            <button className="btn btn-outline-primary mx-2">Edit</button>
+            <button className="btn btn-danger mx-2">View</button>
+        </td>
     </tr>
     )
    }
